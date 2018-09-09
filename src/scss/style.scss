@@ -1,5 +1,13 @@
-$bg-color: blue;
-
-body{
-  background: $bg-color
+canvas{
+  border-radius: 15px
+  margin-left: 20px
+  margin-top: 20px
+}
+.center {
+  margin: auto
+  width: 60%
+  padding: 10px
+}
+.switch {
+  margin: 20px
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    ClockCanvas
+  </title>
+
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="center">
+      <cite><h1> Clock Canvas</h1> </cite>
+      <canvas width="750" height="200"></canvas>
+      <div id="cycle"></div>
+      <div id="isStable"></div>
+      <div id="isDone"></div>
+      <div>
+        <div class="switch">
+          <input id="light" type="checkbox" data-toggle="toggle" >
+            <p>Turn lights on </p>
+        </div>
+        <p><strong>About the clock</strong></p>
+        <ol>
+          <li>The Clock is made with <a href="http://projects.calebevans.me/jcanvas/">jCanvas.</a></li>
+          <li>jCanvas is a jQuery plugin that makes the HTML5 canvas easy to work with.</li>
+          <li>The lighting effect is a transformation over the color background and it's pretty good looking.</li>
+          <li>This experiment was made for <a href="http://www.armandoprieto.net/">Armando Prieto</li>
+        </ol>
+      <cite><a href="https://en.wikipedia.org/wiki/Digital_clock">The Digital Clock</a></cite>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jcanvas.js" ></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js" ></script>
+  <script src="js/script.js" ></script>
+
+</body>
+<html>
